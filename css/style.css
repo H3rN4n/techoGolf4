@@ -131,8 +131,8 @@ a:focus {
 /*------------------------------------------*/
 
 .btn-theme {
-	background-color: #ffc400;
-	color: #333;
+	background-color: #8cc052;
+	color: #fff;
 	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -145,7 +145,7 @@ a:focus {
 }
 
 .btn-theme:hover {
-	background-color: #d9a701;
+	background-color: #739f43;
 	color: #fff;
 }
 
@@ -192,7 +192,7 @@ a:focus {
     content: "";
     height: 2px;
     width: 200px;
-	background: #ffc400;
+	background: #8cc052;
     margin: 15px auto;
     position: relative;
 }
@@ -267,7 +267,7 @@ a:focus {
 
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a.selected-nav {
-	color: #ffc400;
+	color: #8cc052;
 	background-color: transparent;
 }
 
@@ -423,10 +423,10 @@ textarea {
 
 .form-control:focus {
 	background-color: #f0f0f0;
-	border-color: #ffc400; 
+	border-color: #8cc052; 
 	outline: 0;
-	-webkit-box-shadow: inset 0 1px 1px #ffc400, 0 0 3px #ffc400;
-	box-shadow: inset 0 1px 1px #ffc400, 0 0 3px #ffc400;
+	-webkit-box-shadow: inset 0 1px 1px #8cc052, 0 0 3px #8cc052;
+	box-shadow: inset 0 1px 1px #8cc052, 0 0 3px #8cc052;
 }
 
 /*------------------------------------------*/
@@ -489,13 +489,13 @@ textarea {
 .nav-tabs > li.active > a, 
 .nav-tabs > li.active > a:hover, 
 .nav-tabs > li.active > a:focus {
-	color: #ffc400;
+	color: #8cc052;
 	border: none;
 	padding: 0;
 }
 
 .nav-tabs > li > a:hover {
-	color: #ffc400;
+	color: #8cc052;
 	border: none;
 }
 
@@ -584,7 +584,7 @@ textarea {
 }
 
 .panel-title > a:hover {
-    color: #ffc400;
+    color: #8cc052;
 }
 
 /*------------------------------------------*/
@@ -592,7 +592,7 @@ textarea {
 /*------------------------------------------*/
 
 .panel-title i {
-	color: #ffc400;
+	color: #8cc052;
 	font-size: 28px;
 	margin-right: 10px;
 }
@@ -651,7 +651,7 @@ textarea {
     content: "";
     height: 2px;
     width: 100px;
-	background: #ffc400;
+	background: #8cc052;
     margin: 15px auto;
     position: relative;
 }
@@ -797,7 +797,7 @@ textarea {
 }
 
 .icon-box i {
-	color: #ffc400;
+	color: #8cc052;
     font-size: 60px;
 	margin-top: 10px;
 }
@@ -863,8 +863,8 @@ textarea {
 }
 
 .timeline-year span {
-    background-color: #ffc400;
-    color: #333;
+    background-color: #8cc052;
+    color: #fff;
 	font-size: 20px;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 700;
@@ -953,8 +953,8 @@ textarea {
 }
 
 .timeline-item:hover.timeline-item:before {
-	background-color: #ffc400;
-	border-color: #ffc400;
+	background-color: #8cc052;
+	border-color: #8cc052;
 }
 
 .timeline-item:hover .timeline-item-content.pull-right:before {
@@ -1085,7 +1085,7 @@ textarea {
 
 #gallery-filter .btn-group > .btn:hover {
 	color: #fff;
-	background-color: #ffc400;
+	background-color: #8cc052;
 }
 
 /*------------------------------------------*/
@@ -1094,8 +1094,8 @@ textarea {
 
 #gallery-filter .btn-group > .btn.active,
 #gallery-filter .btn-group > .btn.focus {
-	color: #222;
-	background-color: #ffc400;
+	color: #fff;
+	background-color: #8cc052;
 	box-shadow: 0 0 0 0;
 	cursor: default;
 }
@@ -1184,7 +1184,7 @@ textarea {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(225, 196, 0, 0.75);
+	background: rgba(140, 192, 82, 0.75);
 	-moz-transition: opacity 400ms ease-out;
 	-webkit-transition: opacity 400ms ease-out;
 	-o-transition: opacity 400ms ease-out;
@@ -1249,7 +1249,7 @@ textarea {
 
 .team-img-meta h6 {
 	font-size: 14px;
-	color: #ffc400;
+	color: #8cc052;
 	text-transform: uppercase;
 	font-weight: 400;
 	margin-bottom: 10px;
@@ -1427,22 +1427,26 @@ textarea {
 /*------------------------------------------*/
 
 .pricing-table.highlight  {
-	background-color: #ffc400;
-	border-color: #d9a701;
+	background-color: #8cc052;
+	border-color: #739f43;
+}
+
+.pricing-table.highlight  h3 {
+	color: #fff;
 }
 
 .pricing-table.highlight .price {
-	background-color: #d9a701;
+	background-color: #739f43;
 	color: #fff;
-	border-color: #d9a701;
+	border-color: #739f43;
 }
 
 .pricing-table.highlight ul.features {
-	color: #333;
+	color: #fff;
 }
 
 .pricing-table.highlight ul.features li {
-    border-color: #d9a701;
+    border-color: #739f43;
 }
 
 /*------------------------------------------*/
@@ -1516,7 +1520,7 @@ textarea {
 }
 
 #testimonials .clients-counter {
-	color:  #ffc400;
+	color:  #8cc052;
 	font-size: 30px;
 	font-weight: 700;
 }
@@ -1647,7 +1651,7 @@ textarea {
 }
 
 .blog-post-info a {
-	color: #ffc400;
+	color: #8cc052;
 }
 
 /*------------------------------------------*/
@@ -1760,7 +1764,7 @@ textarea {
 /*------------------------------------------*/ 
 
 .contact-info .fa {
-    color: #ffc400;
+    color: #8cc052;
     font-size: 60px;
     line-height: 60px;
     margin-bottom: 10px;
@@ -1785,12 +1789,12 @@ textarea {
 }
 
 .contact-info a {
-	color: #ffc400;
+	color: #8cc052;
 	font-weight: 700;
 }
 
 .contact-info a:hover {
-  color: #ffc400;
+  color: #8cc052;
 }
 
 
@@ -1903,8 +1907,8 @@ textarea {
 
 #newsletter form input[type="submit"] {
 	width: 25%;
-	background-color: #ffc400;
-	border: 1px solid #ffc400;
+	background-color: #8cc052;
+	border: 1px solid #8cc052;
 	color: #fff;
 	font-size: 16px;
     font-weight: 900;
@@ -1922,7 +1926,7 @@ textarea {
 }
 
 #newsletter form input[type="submit"]:hover {
-	background-color: #d9a701;
+	background-color: #739f43;
 }
 
 
@@ -1932,7 +1936,7 @@ textarea {
 }
 
 #footer_copyright p span {
-	color: #ffc400;
+	color: #8cc052;
 	font-size: 15px;
 	font-weight: 800;
 }
@@ -2025,14 +2029,14 @@ textarea {
 	background-image: url("../img/icons/back-to-top.png");
 	background-repeat: no-repeat;
 	background-position: 50% 48%;
-	background-color:rgba(225, 196, 0, 0.85);	
+	background-color:rgba(140, 192, 82, 0.85);	
 	-webkit-transition: all 250ms linear;
 	-moz-transition: all 250ms linear;
 	transition: all 250ms linear;	
 }
 
 #scrollUp:hover {
-	background-color:rgba(225, 196, 0, 1);	
+	background-color:rgba(140, 192, 82, 1);	
 }
 
 nav a#pull {  
@@ -2068,7 +2072,7 @@ nav a#pull {
 }
 
 #form_response .btn-theme {
-	background-color: #ffc400;
+	background-color: #8cc052;
 	color: #333;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -2082,7 +2086,7 @@ nav a#pull {
 }
 
 #form_response .btn-theme:hover {
-	background-color: #ffc400;
+	background-color: #8cc052;
 	color: #fff;
 }
 
@@ -2126,7 +2130,7 @@ nav a#pull {
 }
 
 #stlChanger .chBut {
-	background: #ffc400;
+	background: #8cc052;
 	width: 40px;
 	height: 40px;
 	position:absolute;
@@ -2134,7 +2138,7 @@ nav a#pull {
 	right:0px;
 	z-index: 1000000;
 	text-align: center;
-	border: 1px solid #d9a701;
+	border: 1px solid #739f43;
 	border-left: none;
 	border-radius: 0px 4px 4px 0px;
 	-webkit-transition: all 300ms ease-in-out;
@@ -2145,8 +2149,8 @@ nav a#pull {
 }
 
 #stlChanger .chBut:hover {
-	background: #d9a701;
-	border-color: #ffc400;
+	background: #739f43;
+	border-color: #8cc052;
 }
 
 #stlChanger .chBut i {
@@ -2199,8 +2203,53 @@ nav a#pull {
 }
 
 .s_1:hover {
-	color: #333;
-	background-color: #ffc400;
+	color: #fff;
+	background-color: #8cc052;
 }
 
+#modality {
+	/*background-image: url(../img/thumbs/020_deporte_golf.jpg);*/
+	background-color: #262626;
+	background-size: contain;
+	background-repeat: no-repeat;
+	color: #fff;
+}
 
+#modality > .layer {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	/*background-color: rgba(18, 99, 23, 0.7);*/
+}
+
+#modality h3 {
+	color: #fff;	
+}
+
+#modality h2 {
+	color: #fff;	
+}
+
+#values .pricing-table.highlight {
+	background-color: #177f1e;
+	border-color: #1c9924;
+}
+#values .pricing-table.highlight .price {
+	background-color: #126317;
+	color: #fff;
+	border-color: #177f1e;
+}
+
+#values .pricing-table.highlight ul.features li {
+	border-color: #fff;
+}
+
+#values .pricing-table.highlight p {
+	font-size: 16px;
+	margin-top: 5px;
+	color: #fff;
+}
+
+#form_register_btn button{
+	font-size: 36px;
+}

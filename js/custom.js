@@ -97,7 +97,7 @@
 	/*	Parallax
 	/*----------------------------------------------------*/
 	
-	$(window).bind('load', function() {
+	/*$(window).bind('load', function() {
 	
 		"use strict";	
 		parallaxInit();
@@ -112,7 +112,7 @@
 			$('#promo_line').parallax("30%", 0.3);		
 		}	
 	}
-	
+	*/
 	
 	
 	/*----------------------------------------------------*/
