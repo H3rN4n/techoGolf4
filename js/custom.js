@@ -311,7 +311,7 @@
 			});
 		};
 		  
-		$('#GoToHome, #GoToAbout, #GoToFeatures, #GoToWorks, #GoToTeam, #GoToPricing, #GoToBlog, #GoToContacts' ).scrollTo({ speed: 1400 });
+		$('#GoToHome, #GoToValues, #GoToModality, #GoToSponsors, #GoToPlace' ).scrollTo({ speed: 1400 });
 
 	});
 	

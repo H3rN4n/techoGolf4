@@ -296,7 +296,7 @@ a:focus {
    03. INTRO
    ========================================================================== */
 
-#intro {
+#anotate {
 	width: 100%;
 	background-image: url("../img/thumbs/intro_bkg.jpg");
 	background-repeat: no-repeat;
@@ -2252,4 +2252,12 @@ nav a#pull {
 
 #form_register_btn button{
 	font-size: 36px;
+}
+
+#sponsors {
+	position: relative;
+}
+
+#sponsors .customNavigation {
+	bottom: 15px;
 }
