@@ -326,7 +326,7 @@
 			});
 		};
 
-		$('#GoToHome, #GoToValues, #GoToModality, #GoToSponsors, #GoToPlace' ).scrollTo({ speed: 1400 });
+		$('#GoToHome, #GoToValues, #GoToModality, #GoToSponsors, #GoToPlace, #GoToContact' ).scrollTo({ speed: 1400 });
 
 	});
 

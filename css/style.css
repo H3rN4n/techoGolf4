@@ -2266,3 +2266,8 @@ nav a#pull {
 {
 	text-align: center;
 }
+
+.intro_buttons
+{
+	line-height: 50px;
+}
