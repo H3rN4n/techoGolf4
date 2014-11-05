@@ -189,14 +189,14 @@
 								<!-- Plan Price  -->
 								<div class="price">
 									<sup>$</sup>
-									<span class="color">13000</span>
+									<span class="color">13.000</span>
 									<!-- <sup class="color">99</sup> -->
 								</div>
 
 								<!-- Plan Features  -->
 								<ul class="features">
 									<li><img src="img/casa.png"/></li>
-									<li>Una familia con la oportunidad para empezar de cero.</li>
+									<li>Vivienda</li>
 								</ul>
 
 								<!-- Table Button  -->
@@ -216,14 +216,14 @@
 								<!-- Plan Price  -->
 								<div class="price">
 									<sup>$</sup>
-									<span class="color">26000</span>
+									<span class="color">26.000</span>
 									<!-- <sup class="color">99</sup> -->
 								</div>
 
 								<!-- Plan Features  -->
 								<ul class="features">
 									<li><img src="img/casa.png"/><img src="img/casa.png"/></li>
-									<li>Dos familias que apuntan a superar la extrema pobreza.</li>
+									<li>Vivienda y 2 cursos de oficios</li>
 								</ul>
 
 								<!-- Table Button  -->
@@ -244,14 +244,14 @@
 								<!-- Plan Price  -->
 								<div class="price">
 									<sup>$</sup>
-									<span class="color">52000</span>
+									<span class="color">52.000</span>
 									<!-- <sup class="color">99</sup> -->
 								</div>
 
 								<!-- Plan Features  -->
 								<ul class="features">
 									<li><img src="img/casa.png"/><img src="img/casa.png"/><img src="img/casa.png"/><img src="img/casa.png"/></li>
-									<li>Cuatro familias motivadas por el desarrollo de su comunidad.</li>
+									<li>2 Viviendas, 2 cursos de oficios, 2 cursos de educación y 10 programas de emprendedores</li>
 								</ul>
 
 								<!-- Table Button  -->
@@ -271,7 +271,7 @@
 								<!-- Plan Price  -->
 								<div class="price">
 									<sup>$</sup>
-									<span class="color">26000</span>
+									<span class="color">26.000</span>
 									<!-- <sup class="color">99</sup> -->
 								</div>
 
@@ -310,9 +310,12 @@
 							<h3>Modalidad y agenda</h3>
 							<h2>Laguneada mejor pelota</h2>
 							<h4>Concursos especiales: Long Drive y Best approach</h4>
+							<br><br>
+							<h4>Green Fee - $550</h4>
+							<h4>Linea - $2.200</h4>
+							<h4>After golf para acompañantes - $200</h4>
 						</div>
 					</div>
-
 
 					<div class="row">
 
@@ -571,15 +574,13 @@
 
 					</div>	<!-- End row -->
 
+					<div id="row">
 
-					<div class="row">
-						<div class="col-sm-12 fees">
-							<br><br>
-							<h4>Green Fee - $550</h4>
-							<h4>Linea - $2200</h4>
-							<h4>After golf para acompañantes - $200</h4>
+						<div id="form_register_btn" class="text-center">
+							<button class="btn btn-theme" value="Participar" id="submit" data-toggle="modal" data-target="#myModal">Anotate</button>
 						</div>
 					</div>
+
 
 
 				</div><!-- End container -->
@@ -616,26 +617,28 @@
 
 								<!-- CLIENT LOGO -->
 								<div id="client-logo-1" class="item">
-									<img class="img-responsive img-customer" src="img/thumbs/client-1.png" alt="customer_image">
+									<a href="http://www.pilarapoloclub.com.ar/golf.php" target="_blank"><img class="img-responsive img-customer" src="img/thumbs/client-1.png" alt="Pilará"></a>
 								</div>
 
-								<!--
+
 
 								<div id="client-logo-2" class="item">
-									<img class="img-responsive img-customer" src="img/thumbs/client-2.png" alt="customer_image">
+									<a href="http://solanasvacation.com.ar/solanas-vacation-punta-del-este.php" target="_blank"><img class="img-responsive img-customer" src="img/aliados/solanas.png" alt="Solanas"></a>
 								</div>
 
 								<div id="client-logo-3" class="item">
-									<img class="img-responsive img-customer" src="img/thumbs/client-3.png" alt="customer_image">
+									<a href="http://www.hoyo19.tv/" target="_blank"><img class="img-responsive img-customer" src="img/aliados/hoyo19.png" alt="Hoyo 19"></a>
 								</div>
 
 								<div id="client-logo-4" class="item">
-									<img class="img-responsive img-customer" src="img/thumbs/client-4.png" alt="customer_image">
+									<a href="http://www.golfnightexperience.com.ar/" target="_blank"><img class="img-responsive img-customer" src="img/aliados/gne.jpg" alt="Golf Night Experience" id="GNE"></a>
 								</div>
 
 								<div id="client-logo-5" class="item">
-									<img class="img-responsive img-customer" src="img/thumbs/client-5.png" alt="customer_image">
+									<a href="http://ecofactory.com.ar/" target="_blank"><img class="img-responsive img-customer" src="img/aliados/ecofactory.png" alt="EcoFactory" id="ecofactory"></a>
 								</div>
+
+								<!--
 
 								<div id="client-logo-6" class="item">
 									<img class="img-responsive img-customer" src="img/thumbs/client-6.png" alt="customer_image">
@@ -758,19 +761,20 @@
 					    </div>
 					    <!--Variables obligatorias-->
 					    <div class="content" style="border: 1px black solid;
-					width: 50%;
+					width: 75%;
 					margin: auto;
 					background-color: #eee;
 					margin-top: 20px;
 					margin-bottom: 15px;
-					border-radius: 10px;">
+					border-radius: 10px;
+					padding-bottom: 10px;">
 						<form action="https://checkout.dineromail.com/CheckOut" method="post" >
 						<div style="padding-top:20px; margin:auto;text-align:center;">
 						    <input type="hidden" name="merchant" value="4083795" />
 						<input type="hidden" name="item_name_1" value="Green Fee" />
 						<input type="hidden" name="item_quantity_1" value="1" />
 
-						    <div style="position:relative;bottom:8px; width:150px; display:inline-block;">Green Fee - $550</div>
+						    <div style="position:relative;bottom:8px; width:250px; display:inline-block;">Green Fee - $550</div>
 						    <input type="hidden" id="item_ammount_1" name="item_ammount_1" value="55000">
 						<input type="hidden" name="payment_method_available" value="all" />
 						<input type="hidden" name="country_id" value="1" />
@@ -784,7 +788,7 @@
 						<input type="hidden" name="merchant" value="4083795" />
 						<input type="hidden" name="item_name_1" value="Linea" />
 						<input type="hidden" name="item_quantity_1" value="1" />
-						    <div style="position:relative;bottom:8px; width:150px; display:inline-block;">Linea - $2200</div>
+						    <div style="position:relative;bottom:8px; width:250px; display:inline-block;">Linea - $2200</div>
 						    <input type="hidden" id="item_ammount_1" name="item_ammount_1" value="220000">
 						<input type="hidden" name="payment_method_available" value="all" />
 						<input type="hidden" name="country_id" value="1" />
@@ -798,7 +802,7 @@
 						<input type="hidden" name="merchant" value="4083795" />
 						<input type="hidden" name="item_name_1" value="Linea" />
 						<input type="hidden" name="item_quantity_1" value="1" />
-							<div style="position:relative;bottom:8px; width:150px; display:inline-block;">After Golf - $200</div>
+							<div style="position:relative;bottom:8px; width:250px; display:inline-block;">After Golf para acompañantes - $200</div>
 							<input type="hidden" id="item_ammount_1" name="item_ammount_1" value="20000">
 						<input type="hidden" name="payment_method_available" value="all" />
 						<input type="hidden" name="country_id" value="1" />
