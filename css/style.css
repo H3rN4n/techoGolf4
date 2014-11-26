@@ -2285,6 +2285,15 @@ nav a#pull {
 	margin: auto;
 }
 
+.img-main-customer
+{
+	max-width: 234px;
+	max-height: 170px;
+	margin: auto;
+	margin-bottom:30px;
+	display: inline-block;
+}
+
 #ecofactory
 {
 	margin-top: 45px;
@@ -2305,4 +2314,25 @@ nav a#pull {
 .centered
 {
 	text-align:center;
+}
+
+#clients-main
+{
+	width: 500px;
+	margin: auto;
+}
+
+#dole-link
+{
+	margin-right: 70px;
+}
+
+#sushipop
+{
+	margin-top: 25px;
+}
+
+#markus
+{
+	margin-top: 25px;
 }
